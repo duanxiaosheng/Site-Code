@@ -1,0 +1,141 @@
+body {
+	margin: 0px;
+}
+
+#header {
+	cursor: default;
+	height: 60px;
+	background: #ffffff;
+	margin: auto;
+	padding: 13px;
+	box-shadow: 0px 0px 5px 0px #d9d9d9;
+	box-sizing: border-box;
+}
+
+.logow {
+	margin: auto;
+}
+
+.logo {
+	width: auto;
+	margin-left: 10px;
+}
+
+.logosvg {
+	height: 32px;
+	min-width: 32px;
+	vertical-align: top;
+
+}
+
+.logoname {
+	font-size: 23px;
+	margin-left: 10px;
+	font-weight: 600;
+	position: relative;
+}
+
+#banben {
+	cursor: default;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+#banben p {
+
+	color: black;
+	font-weight: bold;
+
+}
+
+#banben .name {
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#banben .about {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #565656;
+	margin-bottom: 5px;
+}
+
+#theme {
+	width: 80%;
+	height: auto;
+	background: #c9d6ff;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgb(201, 214, 255), rgb(226, 226, 226));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgb(201, 214, 255), rgb(226, 226, 226));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: auto;
+	border: 8px solid #eaeaea;
+	border-radius: 15px;
+	position: relative;
+	animation-name: example;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+
+}
+
+#a {
+	position: relative;
+	animation-name: example;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+
+}
+
+#aa {
+	position: relative;
+	animation-name: example1;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes example {
+	0% {
+		opacity: 0;
+		left: 0px;
+		top: 30px;
+	}
+
+	100% {
+		opacity: 10;
+		left: 0px;
+		top: 0px;
+		animation-timing-function: ease-in-out;
+	}
+}
+
+@keyframes example1 {
+	0% {
+		opacity: 0;
+
+	}
+
+	100% {
+		opacity: 10;
+
+		animation-timing-function: ease-in-out;
+	}
+}
+
+#theme:hover {
+	transform: scale(1.01);
+	box-shadow: 0 5px 5px 0 rgba(211, 211, 211, 0.2);
+}
+
+h2 {
+	margin-left: 30px;
+	color: #565656;
+}
+
+span {
+	text-align: center;
+}
