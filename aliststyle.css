@@ -1,0 +1,11 @@
+#banner {
+	background:url('https://alist.duanxiaosheng.repl.co/d/Onedrive/%E6%9D%82/Alist%E7%B4%A0%E6%9D%90/yinruchenyan.jpg') no-repeat center center;
+	
+	background-size: cover;
+	background-attachment: fixed;
+	/* height: 300px; */
+	height: 15%;
+	width: auto;
+	margin: 0px 12px 0 12px;
+	border-radius: 20px;
+}
